@@ -15,3 +15,31 @@
         background-color: $secondary-color;
     }
 }
+
+
+//scroll top button
+.scr-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: $primary-color;
+  border-radius: 50%;
+  border: 0;
+  box-shadow: 0 0 10px $primary-color;
+
+  i {
+    color: $white-color;
+    font-size: $base-font-size * 1.5;
+  }
+
+  &:hover {
+    background-color: $bg-color;
+    border: $base-border-thikness * 2 solid $primary-color;
+
+    i {
+      color: $primary-color;
+    }
+  }
+}

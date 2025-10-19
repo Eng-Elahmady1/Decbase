@@ -31,7 +31,7 @@ $(document).ready(function () {
 
 
 //Owl Carousel
-$('.owl-carousel').owlCarousel({
+$('.owl-carousel-services').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
@@ -46,4 +46,22 @@ $('.owl-carousel').owlCarousel({
             items:3
         }
     }
-})
+});
+
+//Owl Carousel
+$('.owl-carousel-review').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+});
